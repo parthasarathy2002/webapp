@@ -1,0 +1,963 @@
+
+.title
+{
+width:100%;
+height:30%;
+margin-top:-20px;
+}
+.logo
+{
+	width:15%;
+	height:100%;
+}
+.main
+{
+	font-size:60px;
+	margin-top:-135px;
+	margin-left:150px;
+    color:#296E85;
+	font-family:Segoe UI Black;
+	animation-name:main;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+@keyframes main
+{
+	30%
+	{
+		text-shadow:2px 2px #FA6339;
+	}
+	60%
+	{
+		text-shadow:2px 2px #B22222;
+	}
+	90%
+	{
+		text-shadow:2px 2px gold;
+	}
+}
+.r
+{
+	font-size:90px;
+	animation-name:main;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+.backimg
+{
+	width:90%;
+	height:82%;
+	margin-left:65px;
+	background-image:url("back div3.jpeg");
+}
+.data
+{
+	margin-left:104px;
+	width:83%;
+	height:80%;
+	margin-top:-490px;
+	background-color:white;
+	border-radius:20px;
+}
+.re-co
+{
+	text-align:center;
+	font-family:Segoe UI Black;
+}
+.font
+{
+	font-family:Agency FB;
+}
+.line
+{
+	color:yellow;
+}
+.re-ty
+{
+	text-align:center;
+	font-size:40px;
+	font-family:Arial Black;
+	margin-top:-10px;
+}
+.para
+{
+	margin-top:-30px;
+	font-size:25px;
+	font-family:Georgia;
+	text-align:center;
+	line-height:1.4;
+}
+.grade
+{
+	font-family:Segoe UI Black;
+	font-size:14px;
+	margin-left:250px;
+}
+.num
+{
+	font-family:Arial Narrow;
+}
+.sub
+{
+	font-family:Segoe UI Black;
+	font-size:14px;
+	margin-left:600px;
+	margin-top:-50px;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+/*  1.Energy Conservation */
+
+.all
+{
+	width:90%;
+	height:55%;
+	margin-left:65px;
+	display:flex;
+}
+.all:hover
+{
+	box-shadow:4px 4px 20px 5px #fae3a5;
+}
+.imgdata
+{
+	width:35%;
+	height:52%;
+}
+.img1
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay
+{
+	position: absolute; 
+	bottom:-468px; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); /* Black see-through */
+	color: #f1f1f1; 
+	width:27.9%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+}
+.all:hover .overlay{
+	opacity:8;
+}
+.ene
+{
+	font-size:40px;
+	font-family:Impact;
+}
+.data1
+{
+	width:53%;
+	height:48.5%;
+	font-size:18px;
+	font-family:Microsoft JhengHei Light;
+	padding:15px;
+}
+.butt1
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:10px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+	border:solid gold;
+	padding:10px;
+}
+.butt1:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+.grade
+{
+	font-family:Segoe UI Black;
+	font-size:14px;
+	margin-left:20px;
+}
+.sub
+{
+	font-family:Segoe UI Black;
+	font-size:14px;
+	margin-left:250px;
+	margin-top:-50px;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 2.Uprising */
+
+.all2
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all2:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata2
+{
+	width:35%;
+	height:52%;
+}
+.img2
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay2
+{
+	position: absolute; 
+  bottom:-834px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all2:hover .overlay2{
+	opacity:8;
+}
+.up
+{
+	font-size:40px;
+	font-family:Impact;
+}
+.butt-two
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:10px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-two:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 3. Alternative Use ENergy */
+
+.all3
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all3:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata3
+{
+	width:35%;
+	height:52%;
+}
+.img3
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay3
+{
+	position: absolute; 
+  bottom:-1200px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all3:hover .overlay3{
+	opacity:8;
+}
+
+.butt-three
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:40px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-three:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 4. Renewables Roundup */
+
+.all4
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all4:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata4
+{
+	width:35%;
+	height:52%;
+}
+.img4
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay4
+{
+	position: absolute; 
+  bottom:-1567px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all4:hover .overlay4{
+	opacity:8;
+}
+.butt-four
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:40px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-four:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 5. Careers in Renewable Energy */
+
+.all5
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all5:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata5
+{
+	width:35%;
+	height:52%;
+}
+.img5
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay5
+{
+	position: absolute; 
+  bottom:-1930px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all5:hover .overlay5{
+	opacity:8;
+}
+.butt-five
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:40px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-five:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 6. Non-Renewable Energy */
+
+.all6
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all6:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata6
+{
+	width:35%;
+	height:52%;
+}
+.img6
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay6
+{
+	position: absolute; 
+  bottom:-2300px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all6:hover .overlay6{
+	opacity:8;
+}
+.butt-six
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:40px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-six:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 7. Renewable Energy */
+
+.all7
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all7:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata7
+{
+	width:35%;
+	height:52%;
+}
+.img7
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay7
+{
+	position: absolute; 
+  bottom:-2665px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all7:hover .overlay7{
+	opacity:8;
+}
+.butt-seven
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:40px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-seven:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 8. Earth Day */
+
+.all8
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all8:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata8
+{
+	width:35%;
+	height:52%;
+}
+.img8
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay8
+{
+	position: absolute; 
+  bottom:-3030px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all8:hover .overlay8{
+	opacity:8;
+}
+.butt-eight
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:6px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-eight:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/* 9. Case Study: California Blackouts */
+
+.all9
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all9:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata9
+{
+	width:35%;
+	height:52%;
+}
+.img9
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay9
+{
+	position: absolute; 
+  bottom:-3395px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all9:hover .overlay9{
+	opacity:8;
+}
+.butt-nine
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:40px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-nine:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/* 10. Power Plan */
+
+.all10
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all10:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata10
+{
+	width:35%;
+	height:52%;
+}
+.img10
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay10
+{
+	position: absolute; 
+  bottom:-3762px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all10:hover .overlay10{
+	opacity:8;
+}
+.butt-ten
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:60px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+	border:solid gold;
+}
+.butt-ten:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+
+/* 11. Conserving Earth */
+
+.all11
+{
+	width:90%;
+	height:52%;
+	margin-left:65px;
+	display:flex;
+}
+.all11:hover
+{
+	box-shadow:12px 12px 30px 8px #fae3a5;
+}
+.imgdata11
+{
+	width:35%;
+	height:52%;
+}
+.img11
+{
+	width:99%;
+	height:192.4%;
+}
+.overlay11
+{
+	position: absolute; 
+  bottom:-4130px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:27.9%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.all11:hover .overlay11{
+	opacity:8;
+}
+.butt-eleven
+{
+	width:28%;
+	height:24%;
+	background-color:#f6cB4f;
+	font-size:16px;
+	margin-top:40px;
+	border:solid #f6cB4f;
+	border-radius:20px;
+	margin-left:400px;
+	font-family:Sitka Small;
+	color:white;
+}
+.butt-eleven:hover
+{
+	background-color:#e9ac0a;
+	cursor:pointer;
+	color:black;
+}
+/*-----------------------------------------------------------------------------------*/
+/* Footer */
+
+.fott
+{
+	width:100%;
+	height:65%;
+	background-color:black;
+}
+.first
+{
+	width:29%;
+	height:48%;
+	margin-top:-75px;
+	margin-left:400px;
+	font-size:22px;
+	font-family:Yu Gothic;
+}
+
+.second
+{
+	width:30%;
+	height:53%;
+	margin-top:-185px;
+	margin-left:830px;
+	text-decoration:none;
+	font-size:20px;
+	font-family:Yu Gothic;
+}
+a
+{
+	color:#DAD7D7;
+	text-decoration:none;
+}
+a:hover
+{
+	color:gold;
+}
+.tit
+{
+	width:23%;
+	height:25%;
+	margin-top:10px;
+}
+.log
+{
+	width:32%;
+	height:100%;
+}
+.down-fot
+{
+	font-size:30px;
+    color:#296E85;
+	font-family:Segoe UI Black;
+	margin-top:-80px;
+	margin-left:80px;
+}
+.r-tit
+{
+	font-size:50px;
+}
+.address
+{
+	width:21%;
+	height:43%;
+	margin-top:-150px;
+	margin-left:85px;
+}
+.add
+{
+	color:#BF6666;
+	font-size:20px;
+	font-family:Yu Gothic;
+}
+.icon
+{
+	width:25%;
+	height:12%;
+	margin-top:25px;
+	margin-left:15px;
+	display:flex;
+	justify-content:space-around;
+}
+.fa-instagram
+{
+	font-size:40px;
+	background-color:black;
+	color:#E7C4C4;
+}
+.fa-instagram:hover
+{
+	color:gold;
+	cursor:pointer;
+}
+.fa-youtube-play
+{
+	font-size:40px;
+	background-color:black;
+	color:#E7C4C4;
+}
+.fa-youtube-play:hover
+{
+	color:gold;
+	cursor:pointer;
+}
+.fa-facebook-square
+{
+	font-size:40px;
+	background-color:black;
+	color:#E7C4C4;
+}
+.fa-facebook-square:hover
+{
+	color:gold;
+	cursor:pointer;
+}
+.fa-twitter
+{
+	font-size:40px;
+	background-color:black;
+	color:#E7C4C4;
+}
+.fa-twitter:hover
+{
+	color:gold;
+	cursor:pointer;
+}
+h4
+{
+	color:white;
+	font-size:20px;
+	font-family:Yu Gothic;
+	text-align:center;
+	margin-top:-5px;
+}
+.last-head
+{
+	
+	font-size:30px;
+	margin-top:-80px;
+	margin-left:70px;
+    color:#296E85;
+	font-family:Segoe UI Black;
+}
+.logo-side
+{
+	width:30%;
+	height:100%;
+}
